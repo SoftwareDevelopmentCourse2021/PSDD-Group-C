@@ -1,5 +1,5 @@
 .fill-remaining-space {
-  /* This fills the remaining space, by using flexbox.
+  /* This fills the remaining space, by using flexbox. 
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
@@ -43,7 +43,7 @@ height:100vh;
 
 .mat-sidenav {
     position: fixed;
-    padding-top: 75px;
+    padding-top: 75px; 
     align-items: center;
     justify-content: center;
     width: 200px;
@@ -58,7 +58,7 @@ height:100vh;
 }
 .mat-list-item:hover {
   background-color: darkgray ;
-  color: black;
+  color: black; 
 }
 
 .mat-list-item:hover {
@@ -66,6 +66,9 @@ height:100vh;
 }
 
 .mat-list-icon {
-    color:  beige;
+    color:  beige; 
     padding:4px;
 }
+
+
+
