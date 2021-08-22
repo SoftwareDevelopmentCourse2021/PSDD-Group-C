@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'licenceLogger';
+  title = 'fuck-me-in-the-ass-angular-is-stupid';
 }
