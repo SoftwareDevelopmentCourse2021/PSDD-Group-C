@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'fuck-me-in-the-ass-angular-is-stupid'`, () => {
+  it(`should have as title 'license-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('fuck-me-in-the-ass-angular-is-stupid');
+    expect(app.title).toEqual('license-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('fuck-me-in-the-ass-angular-is-stupid app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('license-app app is running!');
   });
 });

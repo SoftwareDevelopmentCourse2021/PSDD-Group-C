@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fuck-me-in-the-ass-angular-is-stupid": {
+    "license-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fuck-me-in-the-ass-angular-is-stupid",
+            "outputPath": "dist/license-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fuck-me-in-the-ass-angular-is-stupid:build:production"
+              "browserTarget": "license-app:build:production"
             },
             "development": {
-              "browserTarget": "fuck-me-in-the-ass-angular-is-stupid:build:development"
+              "browserTarget": "license-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fuck-me-in-the-ass-angular-is-stupid:build"
+            "browserTarget": "license-app:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "fuck-me-in-the-ass-angular-is-stupid"
+  "defaultProject": "license-app"
 }
