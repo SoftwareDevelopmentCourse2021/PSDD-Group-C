@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgModule } from 'node_modules/@angular/core';
+import { BrowserModule } from 'node_modules/@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from 'node_modules/@angular/forms';
+import { BrowserAnimationsModule } from 'node_modules/@angular/platform-browser/animations';
+import { FlexLayoutModule } from 'node_modules/@angular/flex-layout';
 
 import {
   MatAutocompleteModule,
@@ -40,8 +40,8 @@ import {
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule
-} from '@angular/material';
-import { RouterModule, Routes } from '@angular/router';
+} from 'node_modules/@angular/material';
+import { RouterModule, Routes } from 'node_modules/@angular/router';
 import { PeopleService } from './services/people.service';
 
 // COMPONENTS
